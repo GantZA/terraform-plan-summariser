@@ -1,0 +1,554 @@
+{
+  "format_version": "1.1",
+  "terraform_version": "1.3.3",
+  "planned_values": {
+    "root_module": {
+      "resources": [
+        {
+          "address": "mock_complex_resource.ec2_cluster",
+          "mode": "managed",
+          "type": "mock_complex_resource",
+          "name": "ec2_cluster",
+          "provider_name": "registry.terraform.io/liamcervante/mock",
+          "schema_version": 0,
+          "values": {
+            "bool": null,
+            "float": null,
+            "id": "60558983-5ff0-6192-33ea-7ed311adb27a",
+            "integer": null,
+            "list": null,
+            "list_block": [
+              {
+                "bool": null,
+                "float": null,
+                "integer": null,
+                "list": null,
+                "list_block": [],
+                "map": null,
+                "number": null,
+                "object": null,
+                "set": null,
+                "set_block": [],
+                "string": "hello world"
+              }
+            ],
+            "map": null,
+            "number": null,
+            "object": {
+              "bool": true,
+              "float": null,
+              "integer": null,
+              "list": null,
+              "map": null,
+              "number": null,
+              "object": null,
+              "set": null,
+              "string": null
+            },
+            "set": null,
+            "set_block": [],
+            "string": null
+          },
+          "sensitive_values": {
+            "list_block": [
+              {
+                "list_block": [],
+                "set_block": []
+              }
+            ],
+            "object": {},
+            "set_block": []
+          }
+        },
+        {
+          "address": "mock_simple_resource.databricks_cluster",
+          "mode": "managed",
+          "type": "mock_simple_resource",
+          "name": "databricks_cluster",
+          "provider_name": "registry.terraform.io/liamcervante/mock",
+          "schema_version": 0,
+          "values": {
+            "bool": null,
+            "float": null,
+            "id": "40dd9107-71ed-59d6-4986-9613f7a5ea17",
+            "integer": null,
+            "number": null,
+            "string": "hello world 2"
+          },
+          "sensitive_values": {}
+        },
+        {
+          "address": "mock_simple_resource.iam_rol",
+          "mode": "managed",
+          "type": "mock_simple_resource",
+          "name": "iam_rol",
+          "provider_name": "registry.terraform.io/liamcervante/mock",
+          "schema_version": 0,
+          "values": {
+            "bool": null,
+            "float": null,
+            "integer": 100,
+            "number": null,
+            "string": null
+          },
+          "sensitive_values": {}
+        },
+        {
+          "address": "mock_simple_resource.ssm_parameter",
+          "mode": "managed",
+          "type": "mock_simple_resource",
+          "name": "ssm_parameter",
+          "provider_name": "registry.terraform.io/liamcervante/mock",
+          "schema_version": 0,
+          "values": {
+            "bool": null,
+            "float": null,
+            "id": "fde73d90-da5c-5eaa-ff38-9d67b736bb55",
+            "integer": 2,
+            "number": null,
+            "string": null
+          },
+          "sensitive_values": {}
+        }
+      ]
+    }
+  },
+  "resource_changes": [
+    {
+      "address": "mock_complex_resource.ec2_cluster",
+      "mode": "managed",
+      "type": "mock_complex_resource",
+      "name": "ec2_cluster",
+      "provider_name": "registry.terraform.io/liamcervante/mock",
+      "change": {
+        "actions": [
+          "update"
+        ],
+        "before": {
+          "bool": null,
+          "float": null,
+          "id": "60558983-5ff0-6192-33ea-7ed311adb27a",
+          "integer": null,
+          "list": null,
+          "list_block": [
+            {
+              "bool": null,
+              "float": null,
+              "integer": null,
+              "list": null,
+              "list_block": [],
+              "map": null,
+              "number": null,
+              "object": null,
+              "set": null,
+              "set_block": [],
+              "string": "baringa"
+            }
+          ],
+          "map": null,
+          "number": null,
+          "object": {
+            "bool": true,
+            "float": null,
+            "integer": null,
+            "list": null,
+            "map": null,
+            "number": null,
+            "object": {
+              "bool": null,
+              "float": null,
+              "integer": null,
+              "list": null,
+              "map": null,
+              "number": null,
+              "object": null,
+              "set": null,
+              "string": "hello world"
+            },
+            "set": null,
+            "string": null
+          },
+          "set": null,
+          "set_block": [],
+          "string": null
+        },
+        "after": {
+          "bool": null,
+          "float": null,
+          "id": "60558983-5ff0-6192-33ea-7ed311adb27a",
+          "integer": null,
+          "list": null,
+          "list_block": [
+            {
+              "bool": null,
+              "float": null,
+              "integer": null,
+              "list": null,
+              "list_block": [],
+              "map": null,
+              "number": null,
+              "object": null,
+              "set": null,
+              "set_block": [],
+              "string": "hello world"
+            }
+          ],
+          "map": null,
+          "number": null,
+          "object": {
+            "bool": true,
+            "float": null,
+            "integer": null,
+            "list": null,
+            "map": null,
+            "number": null,
+            "object": null,
+            "set": null,
+            "string": null
+          },
+          "set": null,
+          "set_block": [],
+          "string": null
+        },
+        "after_unknown": {},
+        "before_sensitive": {
+          "list_block": [
+            {
+              "list_block": [],
+              "set_block": []
+            }
+          ],
+          "object": {
+            "object": {}
+          },
+          "set_block": []
+        },
+        "after_sensitive": {
+          "list_block": [
+            {
+              "list_block": [],
+              "set_block": []
+            }
+          ],
+          "object": {},
+          "set_block": []
+        }
+      }
+    },
+    {
+      "address": "mock_simple_resource.databricks_cluster",
+      "mode": "managed",
+      "type": "mock_simple_resource",
+      "name": "databricks_cluster",
+      "provider_name": "registry.terraform.io/liamcervante/mock",
+      "change": {
+        "actions": [
+          "update"
+        ],
+        "before": {
+          "bool": null,
+          "float": null,
+          "id": "40dd9107-71ed-59d6-4986-9613f7a5ea17",
+          "integer": null,
+          "number": null,
+          "string": "hello world"
+        },
+        "after": {
+          "bool": null,
+          "float": null,
+          "id": "40dd9107-71ed-59d6-4986-9613f7a5ea17",
+          "integer": null,
+          "number": null,
+          "string": "hello world 2"
+        },
+        "after_unknown": {},
+        "before_sensitive": {},
+        "after_sensitive": {}
+      }
+    },
+    {
+      "address": "mock_simple_resource.iam_policy",
+      "mode": "managed",
+      "type": "mock_simple_resource",
+      "name": "iam_policy",
+      "provider_name": "registry.terraform.io/liamcervante/mock",
+      "change": {
+        "actions": [
+          "delete"
+        ],
+        "before": {
+          "bool": true,
+          "float": null,
+          "id": "5c4e9acf-75e3-f726-8423-2707ec0c3431",
+          "integer": null,
+          "number": null,
+          "string": null
+        },
+        "after": null,
+        "after_unknown": {},
+        "before_sensitive": {},
+        "after_sensitive": false
+      },
+      "action_reason": "delete_because_no_resource_config"
+    },
+    {
+      "address": "mock_simple_resource.iam_rol",
+      "mode": "managed",
+      "type": "mock_simple_resource",
+      "name": "iam_rol",
+      "provider_name": "registry.terraform.io/liamcervante/mock",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "before": null,
+        "after": {
+          "bool": null,
+          "float": null,
+          "integer": 100,
+          "number": null,
+          "string": null
+        },
+        "after_unknown": {
+          "id": true
+        },
+        "before_sensitive": false,
+        "after_sensitive": {}
+      }
+    },
+    {
+      "address": "mock_simple_resource.ssm_parameter",
+      "mode": "managed",
+      "type": "mock_simple_resource",
+      "name": "ssm_parameter",
+      "provider_name": "registry.terraform.io/liamcervante/mock",
+      "change": {
+        "actions": [
+          "no-op"
+        ],
+        "before": {
+          "bool": null,
+          "float": null,
+          "id": "fde73d90-da5c-5eaa-ff38-9d67b736bb55",
+          "integer": 2,
+          "number": null,
+          "string": null
+        },
+        "after": {
+          "bool": null,
+          "float": null,
+          "id": "fde73d90-da5c-5eaa-ff38-9d67b736bb55",
+          "integer": 2,
+          "number": null,
+          "string": null
+        },
+        "after_unknown": {},
+        "before_sensitive": {},
+        "after_sensitive": {}
+      }
+    }
+  ],
+  "prior_state": {
+    "format_version": "1.0",
+    "terraform_version": "1.3.3",
+    "values": {
+      "root_module": {
+        "resources": [
+          {
+            "address": "mock_complex_resource.ec2_cluster",
+            "mode": "managed",
+            "type": "mock_complex_resource",
+            "name": "ec2_cluster",
+            "provider_name": "registry.terraform.io/liamcervante/mock",
+            "schema_version": 0,
+            "values": {
+              "bool": null,
+              "float": null,
+              "id": "60558983-5ff0-6192-33ea-7ed311adb27a",
+              "integer": null,
+              "list": null,
+              "list_block": [
+                {
+                  "bool": null,
+                  "float": null,
+                  "integer": null,
+                  "list": null,
+                  "list_block": [],
+                  "map": null,
+                  "number": null,
+                  "object": null,
+                  "set": null,
+                  "set_block": [],
+                  "string": "baringa"
+                }
+              ],
+              "map": null,
+              "number": null,
+              "object": {
+                "bool": true,
+                "float": null,
+                "integer": null,
+                "list": null,
+                "map": null,
+                "number": null,
+                "object": {
+                  "bool": null,
+                  "float": null,
+                  "integer": null,
+                  "list": null,
+                  "map": null,
+                  "number": null,
+                  "object": null,
+                  "set": null,
+                  "string": "hello world"
+                },
+                "set": null,
+                "string": null
+              },
+              "set": null,
+              "set_block": [],
+              "string": null
+            },
+            "sensitive_values": {
+              "list_block": [
+                {
+                  "list_block": [],
+                  "set_block": []
+                }
+              ],
+              "object": {
+                "object": {}
+              },
+              "set_block": []
+            }
+          },
+          {
+            "address": "mock_simple_resource.databricks_cluster",
+            "mode": "managed",
+            "type": "mock_simple_resource",
+            "name": "databricks_cluster",
+            "provider_name": "registry.terraform.io/liamcervante/mock",
+            "schema_version": 0,
+            "values": {
+              "bool": null,
+              "float": null,
+              "id": "40dd9107-71ed-59d6-4986-9613f7a5ea17",
+              "integer": null,
+              "number": null,
+              "string": "hello world"
+            },
+            "sensitive_values": {}
+          },
+          {
+            "address": "mock_simple_resource.iam_policy",
+            "mode": "managed",
+            "type": "mock_simple_resource",
+            "name": "iam_policy",
+            "provider_name": "registry.terraform.io/liamcervante/mock",
+            "schema_version": 0,
+            "values": {
+              "bool": true,
+              "float": null,
+              "id": "5c4e9acf-75e3-f726-8423-2707ec0c3431",
+              "integer": null,
+              "number": null,
+              "string": null
+            },
+            "sensitive_values": {}
+          },
+          {
+            "address": "mock_simple_resource.ssm_parameter",
+            "mode": "managed",
+            "type": "mock_simple_resource",
+            "name": "ssm_parameter",
+            "provider_name": "registry.terraform.io/liamcervante/mock",
+            "schema_version": 0,
+            "values": {
+              "bool": null,
+              "float": null,
+              "id": "fde73d90-da5c-5eaa-ff38-9d67b736bb55",
+              "integer": 2,
+              "number": null,
+              "string": null
+            },
+            "sensitive_values": {}
+          }
+        ]
+      }
+    }
+  },
+  "configuration": {
+    "provider_config": {
+      "mock": {
+        "name": "mock",
+        "full_name": "registry.terraform.io/liamcervante/mock",
+        "version_constraint": "0.2.0"
+      }
+    },
+    "root_module": {
+      "resources": [
+        {
+          "address": "mock_complex_resource.ec2_cluster",
+          "mode": "managed",
+          "type": "mock_complex_resource",
+          "name": "ec2_cluster",
+          "provider_config_key": "mock",
+          "expressions": {
+            "list_block": [
+              {
+                "string": {
+                  "constant_value": "hello world"
+                }
+              }
+            ],
+            "object": {
+              "constant_value": {
+                "bool": true
+              }
+            }
+          },
+          "schema_version": 0
+        },
+        {
+          "address": "mock_simple_resource.databricks_cluster",
+          "mode": "managed",
+          "type": "mock_simple_resource",
+          "name": "databricks_cluster",
+          "provider_config_key": "mock",
+          "expressions": {
+            "string": {
+              "constant_value": "hello world 2"
+            }
+          },
+          "schema_version": 0
+        },
+        {
+          "address": "mock_simple_resource.iam_rol",
+          "mode": "managed",
+          "type": "mock_simple_resource",
+          "name": "iam_rol",
+          "provider_config_key": "mock",
+          "expressions": {
+            "integer": {
+              "constant_value": 100
+            }
+          },
+          "schema_version": 0
+        },
+        {
+          "address": "mock_simple_resource.ssm_parameter",
+          "mode": "managed",
+          "type": "mock_simple_resource",
+          "name": "ssm_parameter",
+          "provider_config_key": "mock",
+          "expressions": {
+            "integer": {
+              "constant_value": 2
+            }
+          },
+          "schema_version": 0
+        }
+      ]
+    }
+  }
+}
