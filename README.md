@@ -10,7 +10,7 @@ terraform plan -out example.tfplan && terraform show -json example.tfplan > exam
 python main.py --path examples/example.json
 ```
 
-![img.png](example/img.png)
+![img.png](examples/img.png)
 
 # Hackathon Team
 Ahmed ElRefaey [github](https://github.com/montaro) 
